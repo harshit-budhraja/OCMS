@@ -12,7 +12,7 @@ The online crime investigation and management system for assisting organizations
 * [Harshit Budhraja](https://github.com/harshitbudhraja "Harshit Budhraja")
 * [Shubham Agarwal](https://github.com/shubhxotic "Shubham Agarwal")
 * [Shaurya Jain](https://github.com/shaurya96 "Shaurya Jain")
-* Akshay Bhardwaj
+* [Akshay Bhardwaj](https://github.com/coolpad-bug "Akshay Bhardwaj")
 * [Shobhit Garg](https://github.com/shobhitgarg12 "Shobhit Garg")
 
 
