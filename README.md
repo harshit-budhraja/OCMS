@@ -15,6 +15,8 @@ The online crime investigation and management system for assisting organizations
 * [Akshay Bhardwaj](https://github.com/coolpad-bug "Akshay Bhardwaj")
 * [Shobhit Garg](https://github.com/shobhitgarg12 "Shobhit Garg")
 
+###Mentor -> [Dr. Anuradha Ravi](https://github.com/ans24us1 "Dr. Anuradha Ravi"), Assistant Professor, Shiv Nadar University
+
 
 ##Project Statement
 You are required to assist RAW in maintaining the list of criminals, prime suspects for terror attacks, encrypting and decrypting of messages sent between different departments. As the details of RAW are highly secure, it is important that you encrypt the data before storing them in database. While retrieving the data, decrypt and display in the portal. Performing the encryption and decryption is up to your discretion, but RSA and AES algorithms can be used. In case RAW detects a possible terror strike, it needs to be reported to different police departments of that area. For example, in case of suspected strike in Delhi, a message has to be sent to different police departments in Delhi in encrypted manner. An approver or helper of RAW can help in detecting possible attacks in different parts of the country and can send message to RAW which is in encrypted manner. RAW need to decrypt for viewing the message.
