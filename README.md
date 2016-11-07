@@ -3,7 +3,7 @@
 ##Member List ->
 * [Devesh Tarasia](https://github.com/DEVESHTARASIA "Devesh Tarasia")
 * [Harshit Budhraja](https://github.com/harshitbudhraja "Harshit Budhraja")
-* Shubham Agarwal
+* [Shubham Agarwal](https://github.com/shubhxotica "Shubham Agarwal")
 * Shaurya Jain
 * Akshay Bhardwaj
 * Shobhit Garg
