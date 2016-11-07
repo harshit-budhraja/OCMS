@@ -1,3 +1,5 @@
+[![GitHub Stars](https://img.shields.io/github/stars/harshitbudhraja/OCMS.svg)](https://github.com/harshitbudhraja/OCMS/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/harshitbudhraja/OCMS.svg)](https://github.com/harshitbudhraja/OCMS/issues) [![Stories in Ready](https://badge.waffle.io/harshitbudhraja/OCMS.png?label=ready&title=Ready)](http://waffle.io/harshitbudhraja/OCMS) [![Current Version](https://img.shields.io/badge/version-0.1-green.svg)](https://github.com/harshitbudhraja/OCMS) 
+
 #CRIMER
 The online crime investigation and management system for assisting organizations like RAW, IB, ATU, Seals etc.
 
