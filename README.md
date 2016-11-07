@@ -2,7 +2,7 @@
 ##Name of the Team -> JAVA-D-BUGS
 ##Member List ->
 * Devesh Tarasia
-* (Harshit Budhraja)[!https://github.com/harshitbudhraja]
+* [Harshit Budhraja](https://github.com/harshitbudhraja "Harshit Budhraja")
 * Shubham Agarwal
 * Shaurya Jain
 * Akshay Bhardwaj
