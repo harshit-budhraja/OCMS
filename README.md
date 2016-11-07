@@ -33,7 +33,7 @@ An admin can add, edit and delete police departments, criminal records and suspe
 
 * Parallel to that, we also need to develop another app that can throw up functionalities for a PUBLIC USER as well as an EXECUTIVE PERSONNEL of the organization using our system, privileges from whom is also explained in the upcoming slides.
 
-* We should have a database that should store the information required by the system, which we plan to create using the Buddy platform.
+* We should have a database that should store the information required by the system, which we plan to create using the Buddy platform. The data stored in this database can be viewed and used by both the user and executive domains, but the sole authorizations to maintain, add, edit and delete it, lies with the administrator of the organisation handle in this system. 
 
 ###Expected Privileges
 <img src="images/2.PNG">
