@@ -1,12 +1,17 @@
-#OCMS(Online Crime Management System)
+#CRIMER
+The online crime investigation and management system for assisting organizations like RAW, IB, ATU, Seals etc.
+
+<img src="images/1.PNG">
+
 ###Name of the Team -> JAVA-D-BUGS
+
 ###Member List ->
 * [Devesh Tarasia](https://github.com/DEVESHTARASIA "Devesh Tarasia")
 * [Harshit Budhraja](https://github.com/harshitbudhraja "Harshit Budhraja")
 * [Shubham Agarwal](https://github.com/shubhxotic "Shubham Agarwal")
-* Shaurya Jain
+* [Shaurya Jain](https://github.com/shaurya96 "Shaurya Jain")
 * Akshay Bhardwaj
-* Shobhit Garg
+* [Shobhit Garg](https://github.com/shobhitgarg12 "Shobhit Garg")
 
 
 ##Project Statement
@@ -18,3 +23,17 @@ There can be 3 modules-<br>
 3. Executive Module
 
 An admin can add, edit and delete police departments, criminal records and suspected terrorists data in database. Police departments should contain details like who is the SP, constables and location for sending and receiving text or file messages. If you would like to add, you can also store images. For increasing the robustness, you can also compare images of prime suspects for RAW to check if the criminal records matches. User can view the details of police departments and criminal records. An executive can view encrypted messages sent by the approver or helper. Also send messages to different police departments. You are required to develop GUI for viewing and sending messages, storing, editing and deleting records. Also, a database for storing the data.
+
+##Description
+* *PLATFORM* for the user system - Android (Java + XML)
+
+* *PLATFORM* for the database – [Buddy](https://buddy.com)
+
+* The current state of the understanding of this project statement demands us to have one separate app for an ADMIN, which has privileges as mentioned in the upcoming slides.
+
+* Parallel to that, we also need to develop another app that can throw up functionalities for a PUBLIC USER as well as an EXECUTIVE PERSONNEL of the organization using our system, privileges from whom is also explained in the upcoming slides.
+
+* We should have a database that should store the information required by the system, which we plan to create using the Buddy platform.
+
+###Expected Privileges
+<img src="images/2.PNG">
