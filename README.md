@@ -29,17 +29,17 @@ There can be 3 modules-<br>
 An admin can add, edit and delete police departments, criminal records and suspected terrorists data in database. Police departments should contain details like who is the SP, constables and location for sending and receiving text or file messages. If you would like to add, you can also store images. For increasing the robustness, you can also compare images of prime suspects for RAW to check if the criminal records matches. User can view the details of police departments and criminal records. An executive can view encrypted messages sent by the approver or helper. Also send messages to different police departments. You are required to develop GUI for viewing and sending messages, storing, editing and deleting records. Also, a database for storing the data.
 
 ##Description
-* *PLATFORM* for the user system - Android (Java + XML)
+* **PLATFORM** for the user system - Android (Java + XML)
 
-* *PLATFORM* for the database – [PythonAnywhere](https://www.pythonanywhere.com)
+* **PLATFORM** for the database – [PythonAnywhere](https://www.pythonanywhere.com)
 
-* *TECHNOLOGY* for the database - Flask
+* **TECHNOLOGY** for the database - Flask
 
 * The current state of the understanding of this project statement demands us to have one separate app for an ADMIN, which has privileges as mentioned in the upcoming slides.
 
 * Parallel to that, we also need to develop another app that can throw up functionalities for a PUBLIC USER as well as an EXECUTIVE PERSONNEL of the organization using our system, privileges from whom is also explained in the upcoming slides.
 
-* We should have an *ONLINE* database that should store the information required by the system, which we plan to create using the pythonanywhere platform. The data stored in this database can be viewed and used by both the user and executive domains, but the sole authorizations to maintain, add, edit and delete it, lies with the administrator of the organisation handle in this system. 
+* We should have an **ONLINE** database that should store the information required by the system, which we plan to create using the pythonanywhere platform. The data stored in this database can be viewed and used by both the user and executive domains, but the sole authorizations to maintain, add, edit and delete it, lies with the administrator of the organisation handle in this system. 
 
 ###Expected Privileges
 <img src="images/2.PNG">
