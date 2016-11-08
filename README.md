@@ -31,13 +31,15 @@ An admin can add, edit and delete police departments, criminal records and suspe
 ##Description
 * *PLATFORM* for the user system - Android (Java + XML)
 
-* *PLATFORM* for the database – [Buddy](https://buddy.com)
+* *PLATFORM* for the database – [PythonAnywhere](https://pythonanywhere.com)
+
+* *TECHNOLOGY* for the database - Flask
 
 * The current state of the understanding of this project statement demands us to have one separate app for an ADMIN, which has privileges as mentioned in the upcoming slides.
 
 * Parallel to that, we also need to develop another app that can throw up functionalities for a PUBLIC USER as well as an EXECUTIVE PERSONNEL of the organization using our system, privileges from whom is also explained in the upcoming slides.
 
-* We should have a database that should store the information required by the system, which we plan to create using the Buddy platform. The data stored in this database can be viewed and used by both the user and executive domains, but the sole authorizations to maintain, add, edit and delete it, lies with the administrator of the organisation handle in this system. 
+* We should have an *ONLINE* database that should store the information required by the system, which we plan to create using the pythonanywhere platform. The data stored in this database can be viewed and used by both the user and executive domains, but the sole authorizations to maintain, add, edit and delete it, lies with the administrator of the organisation handle in this system. 
 
 ###Expected Privileges
 <img src="images/2.PNG">
