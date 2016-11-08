@@ -31,7 +31,7 @@ An admin can add, edit and delete police departments, criminal records and suspe
 ##Description
 * *PLATFORM* for the user system - Android (Java + XML)
 
-* *PLATFORM* for the database – [PythonAnywhere](https://pythonanywhere.com)
+* *PLATFORM* for the database – [PythonAnywhere](https://www.pythonanywhere.com)
 
 * *TECHNOLOGY* for the database - Flask
 
