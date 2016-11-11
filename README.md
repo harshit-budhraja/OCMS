@@ -31,9 +31,9 @@ An admin can add, edit and delete police departments, criminal records and suspe
 ##Description
 * **PLATFORM** for the user system - Android (Java + XML)
 
-* **PLATFORM** for the database – [PythonAnywhere](https://www.pythonanywhere.com)
+* **PLATFORM** for the database – [PythonAnywhere](https://www.pythonanywhere.com) or **let's try FIREBASE first**
 
-* **TECHNOLOGY** for the database - Flask
+* **TECHNOLOGY** for the database - Flask or **let's try GOOGLE first**
 
 * The current state of the understanding of this project statement demands us to have one separate app for an ADMIN, which has privileges as mentioned in the upcoming slides.
 
