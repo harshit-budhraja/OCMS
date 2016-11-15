@@ -44,4 +44,4 @@ An admin can add, edit and delete police departments, criminal records and suspe
 ###Expected Privileges
 <img src="images/2.PNG">
 <br><br><br><br><br><br>
-[Team Discussion #1 uploaded](https://github.com/harshitbudhraja/OCMS/Docs/Minutes%20of%20the%20team%20meeting%20#1.md)
+[Team Discussion #1 uploaded](https://github.com/harshitbudhraja/OCMS/blob/master/Docs/Minutes%20of%20the%20team%20meeting%20%231.md)

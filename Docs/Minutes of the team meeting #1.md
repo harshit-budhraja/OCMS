@@ -7,11 +7,11 @@
 The discussion opened with what we had done and applied till date, in the techologies we are supposed to use in this project. Firebase Database and Realtime monitoring, Firebase Cloud messaging have been successfully tested. The link to the sub-repository for the tested android app lies [here](https://github.com/harshitbudhraja/OCMS/tree/master/Testing%20Android%20and%20Firebase%20Frameworks/testfirebase "Test Firebase Android Project") and the sample apk to install [here](https://github.com/harshitbudhraja/OCMS/blob/master/Testing%20Android%20and%20Firebase%20Frameworks/testfirebase/sample-apk.apk "com.arachnisapps.testfirebase").
 
 We decided the control flow of the app as described in the images attached below.
-<img src="images/i1.jpg">
-<img src="images/i2.jpg">
-<img src="images/i3.jpg">
-<img src="images/i4.jpg">
-<img src="images/i5.jpg">
+<img src="OCMS/images/i1.jpg">
+<img src="OCMS/images/i2.jpg">
+<img src="OCMS/images/i3.jpg">
+<img src="OCMS/images/i4.jpg">
+<img src="OCMS/images/i5.jpg">
 
 Also, a list of activities to be used and their names is made as follows:-<br>
 1. **SplashActivity** - Will display a logo and a background image. All network operations to be done in an AsyncTask thread behind this.<br>
