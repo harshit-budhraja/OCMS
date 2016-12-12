@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "510221018685",
+    "firebase_url": "https://thecrimerproject.firebaseio.com",
+    "project_id": "thecrimerproject",
+    "storage_bucket": "thecrimerproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510221018685:android:02cbdc835c0eacf5",
+        "android_client_info": {
+          "package_name": "com.arachnisapps.crimer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510221018685-rs63jpere3p52uj08aavkj6i5bllg1j3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arachnisapps.crimer",
+            "certificate_hash": "2CDE03A74BB36FBE53A5C299321E3671853AB768"
+          }
+        },
+        {
+          "client_id": "510221018685-g9kc8mcn95gtl9igfgc3cljh30reqqf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Bo4aa5sPQMHVf-E3v8deI7S-tHEH-Mw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510221018685-g9kc8mcn95gtl9igfgc3cljh30reqqf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

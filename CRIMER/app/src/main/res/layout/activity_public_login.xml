@@ -26,7 +26,7 @@
                 android:gravity="center_horizontal"
                 android:layout_marginTop="60dp"
                 android:textSize="26sp"
-                android:textColor="#FF1493"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:text="The CRIMER Project"
                 />
@@ -75,8 +75,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:layout_below="@+id/password_hint"
-                android:background="#FFA07A"
-                android:textColor="@android:color/black"
+                android:background="@color/blue"
+                android:textColor="@android:color/white"
                 android:text="LOG IN"
                 android:layout_alignEnd="@+id/password_hint" />
 
@@ -97,16 +97,16 @@
                 android:layout_height="wrap_content"
                 android:background="@null"
                 android:textColor="@android:color/black"
-                android:text="FORGOT PASSWORD"
+                android:text="FORGOT PASSWORD ?"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/sgupbutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#FFA07A"
-                android:textColor="@android:color/black"
+                android:background="@color/blue"
+                android:textColor="@android:color/white"
                 android:text="create new account"
                 android:layout_alignBottom="@+id/forgotLayout"
                 android:layout_alignParentEnd="true" />
@@ -116,7 +116,7 @@
                 android:layout_height="wrap_content"
                 android:text="Sign in with Google"
                 android:layout_marginTop="65dp"
-                android:id="@+id/button2"
+                android:id="@+id/gbutton"
                 android:layout_below="@+id/forgotLayout"
                 android:layout_alignEnd="@+id/forgotLayout"
                 android:layout_alignParentStart="true"

@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">CRIMER</string>
+    <string name="executive_login">Executive Login</string>
+    <string name="action_logout">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>News</item>
+        <item>Department Details</item>
+        <item>Report a Crime</item>
+        <item>Check a Crime</item>
+        <item>View Criminal Records</item>
+        <item>Update Latest News</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
 </resources>

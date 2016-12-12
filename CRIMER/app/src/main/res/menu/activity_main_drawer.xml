@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/navbodygroup" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:title="News" />
+        <item
+            android:id="@+id/nav_deptdetails"
+            android:title="Department Details" />
+        <item
+            android:id="@+id/nav_crimereporting"
+            android:title="Crime Reporting" />
+    </group>
+
+    <!--<item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="@string/privacy_policy" />
+            <item
+                android:id="@+id/nav_settings"
+                android:title="Settings" />
+        </menu>
+    </item>-->
+
+</menu>
