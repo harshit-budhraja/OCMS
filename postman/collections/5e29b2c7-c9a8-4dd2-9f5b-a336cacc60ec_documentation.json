@@ -1,0 +1,201 @@
+{
+    "info": {
+        "_postman_id": "1ecc4bea-d0dd-493a-be67-fb834d69599e",
+        "name": "Cosmos",
+        "description": "A sample API that retrieves constellations as an example to demonstrate features in the OpenAPI 3.0 specification",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "cosmos",
+            "item": [
+                {
+                    "name": "List all cosmos",
+                    "id": "207b3bb2-5c82-49df-811d-5e42aca49ab5",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/cosmos",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "cosmos"
+                            ]
+                        },
+                        "description": "Returns all constellations in this sample dataset"
+                    },
+                    "response": [
+                        {
+                            "id": "633553a0-dca3-4ae5-aab4-6c1c45316156",
+                            "name": "An array of constellations",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/cosmos",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "cosmos"
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": "[\n {\n  \"id\": 98972875,\n  \"name\": \"elit do aliqua irure\",\n  \"tag\": \"ut nostrud aliqua veniam\",\n  \"description\": \"id irure anim reprehenderit nulla\"\n },\n {\n  \"id\": -9677668,\n  \"name\": \"fugiat dolore ex in ad\",\n  \"tag\": \"ad\",\n  \"description\": \"ex culpa in\"\n }\n]"
+                        },
+                        {
+                            "id": "f167e72d-781c-4d7d-84d5-430152300cfe",
+                            "name": "unexpected error",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/cosmos",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "cosmos"
+                                    ]
+                                }
+                            },
+                            "status": "Internal Server Error",
+                            "code": 500,
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": "{\n \"code\": -87276182,\n \"message\": \"tempor id \"\n}"
+                        }
+                    ]
+                },
+                {
+                    "name": "Info for a specific constellation",
+                    "id": "031a1531-03a4-42a2-a72e-74c67c65a853",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/cosmos/:cosmoId",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "cosmos",
+                                ":cosmoId"
+                            ],
+                            "variable": [
+                                {
+                                    "id": "59f722b9-9857-4e68-946e-faa577935598",
+                                    "key": "cosmoId",
+                                    "value": "anim culpa dolor",
+                                    "description": "(Required) The id of the constellation to retrieve"
+                                }
+                            ]
+                        },
+                        "description": "Returns a constellation based on a single ID"
+                    },
+                    "response": [
+                        {
+                            "id": "a03f92ac-9715-4877-94f5-4e1984cc2e8f",
+                            "name": "Expected response to a valid request",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/cosmos/:cosmoId",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "cosmos",
+                                        ":cosmoId"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "key": "cosmoId"
+                                        }
+                                    ]
+                                }
+                            },
+                            "status": "OK",
+                            "code": 200,
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": "{\n \"id\": 99535640,\n \"name\": \"ut anim\",\n \"tag\": \"amet et in aute\",\n \"description\": \"dolor dolore minim\"\n}"
+                        },
+                        {
+                            "id": "48245b90-9d4b-4839-9f77-4a99ad7b177d",
+                            "name": "unexpected error",
+                            "originalRequest": {
+                                "method": "GET",
+                                "header": [],
+                                "url": {
+                                    "raw": "{{baseUrl}}/cosmos/:cosmoId",
+                                    "host": [
+                                        "{{baseUrl}}"
+                                    ],
+                                    "path": [
+                                        "cosmos",
+                                        ":cosmoId"
+                                    ],
+                                    "variable": [
+                                        {
+                                            "key": "cosmoId"
+                                        }
+                                    ]
+                                }
+                            },
+                            "status": "Internal Server Error",
+                            "code": 500,
+                            "_postman_previewlanguage": "json",
+                            "header": [
+                                {
+                                    "key": "Content-Type",
+                                    "value": "application/json"
+                                }
+                            ],
+                            "cookie": [],
+                            "responseTime": null,
+                            "body": "{\n \"code\": -87276182,\n \"message\": \"tempor id \"\n}"
+                        }
+                    ]
+                }
+            ],
+            "id": "9ab1bf5f-ed93-422f-a491-1c9c7ed5d419"
+        }
+    ],
+    "variable": [
+        {
+            "id": "98f38814-9501-49aa-af45-1d146cd967e9",
+            "key": "baseUrl",
+            "value": "https://2a6e0231-05f5-4028-8571-cbce1dcfb5b5.mock.pstmn.io",
+            "type": "string"
+        }
+    ]
+}
